@@ -19,7 +19,7 @@ const LocationPage = () => {
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Service",
+    "@type": "EventPlanningService",
     serviceType: "Event Production Services",
     provider: {
       "@type": "LocalBusiness",
@@ -27,7 +27,7 @@ const LocationPage = () => {
       telephone: "+91-8453846060",
       email: "snapiteventss@gmail.com",
       address: {
-        "@type": "PostalAddress",
+        "@type": "PostalAddress", 
         addressLocality: "Udupi",
         addressRegion: "Karnataka",
         addressCountry: "IN",
