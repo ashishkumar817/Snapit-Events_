@@ -6,7 +6,7 @@ const services = [
     icon: Heart,
     title: "Wedding Planning",
     description:
-      "From fairy-tale ceremonies to grand receptions, we design weddings that reflect your unique love story.",
+      "Professional wedding planning services in Udupi and Mangalore, including stage décor, lighting, mandap setup, and complete event coordination.",
   },
   {
     icon: Building2,

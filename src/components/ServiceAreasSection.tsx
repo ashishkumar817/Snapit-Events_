@@ -12,7 +12,7 @@ const serviceAreas: ServiceArea[] = [
   {
     id: "event-production-udupi",
     city: "Udupi",
-    heading: "Event Production Services in Udupi",
+    heading: "Event Management, Wedding Planning & Event Production in Udupi",
     description:
       "As a proudly Udupi event management service, SnapIt Events brings unmatched expertise to every celebration in the temple city and surrounding coastal regions. Whether you're planning a grand wedding at a heritage venue, a corporate conference, or a vibrant cultural festival, our team delivers end-to-end event production — from stage design and fabrication to professional lighting, sound engineering, and décor. We understand the unique cultural fabric of Udupi and craft events that honour local traditions while embracing modern production standards. Our strong vendor network in Udupi ensures competitive pricing without compromising quality.",
   },
@@ -26,7 +26,7 @@ const serviceAreas: ServiceArea[] = [
   {
     id: "event-production-bangalore",
     city: "Bangalore",
-    heading: "Event Production in Bangalore",
+    heading: "Event Management, Wedding Planning & Event Production in Bangalore",
     description:
       "Bangalore's dynamic corporate culture and vibrant social scene call for event production that matches the city's energy. SnapIt Events provides premium event production in Bangalore — covering large-scale corporate conferences, tech summits, destination weddings, luxury receptions, and entertainment shows. Our Bangalore operations feature cutting-edge AV technology, creative stage concepts, precision lighting design, and crystal-clear sound engineering. We partner with top Bangalore venues and vendors to deliver seamless, high-impact events that leave a lasting impression on every guest.",
   },
@@ -61,7 +61,7 @@ const ServiceAreasSection = () => {
             Where We Serve
           </p>
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">
-            Event Production Services Across{" "}
+            Event Management & Event Production Services Across{" "}
             <span className="text-gold-gradient">South India</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">

@@ -68,6 +68,9 @@ const Footer = () => {
                 <a href="tel:+918453846060" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                   <Phone size={14} /> +91 8453846060
                 </a>
+                <a href="tel:+918197956923" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+                  <Phone size={14} /> +91 8197956923
+                </a>
               </li>
               <li>
                 <a href="mailto:snapiteventss@gmail.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
@@ -76,7 +79,7 @@ const Footer = () => {
               </li>
               <li>
                 <span className="flex items-center gap-2 text-sm text-muted-foreground">
-                  <MapPin size={14} /> Shankarpura, Udupi, Karnataka 574115, India
+                  <MapPin size={25} /> Church Complex, Shankarpura, Udupi, Karnataka 574115, India
                 </span>
               </li>
             </ul>
@@ -84,7 +87,7 @@ const Footer = () => {
             <div className="flex gap-4">
               {[
                 { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/snapit_events?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
-                { icon: Facebook, label: "Facebook", href: "#" },
+                { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/snapitevents.in" },
                 { icon: Linkedin, label: "LinkedIn", href: "#" },
               ].map((social) => (
                 <a
@@ -125,6 +128,7 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-2 text-sm text-muted-foreground">
             <div className="flex items-center gap-4">
               <a href="tel:+918453846060" className="hover:text-primary transition-colors">+91 8453846060</a>
+              <a href="tel:+918197956923" className="hover:text-primary transition-colors">+91 8197956923</a>
               <span>|</span>
               <a href="mailto:snapiteventss@gmail.com" className="hover:text-primary transition-colors">snapiteventss@gmail.com</a>
             </div>

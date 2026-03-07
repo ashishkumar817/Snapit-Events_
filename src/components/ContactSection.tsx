@@ -17,7 +17,7 @@ const ContactSection = () => {
     const formData = new FormData(form);
 
     try {
-      const res = await fetch("https://formspree.io/f/mvzbbdvb", {
+      const res = await fetch("https://formspree.io/f/xojkqbbb", {
         method: "POST",
         body: formData,
         headers: { Accept: "application/json" },
@@ -135,7 +135,9 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Phone</p>
-                  <a href="tel:+918453846060" className="font-medium hover:text-primary transition-colors">+91 8453846060</a>
+                  <a href="tel:+918453846060" className="font-medium hover:text-primary transition-colors">+91 8453846060</a><a> </a>
+
+                  <a href="tel:+918197956923" className="font-medium hover:text-primary transition-colors">+91 8197956923</a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -153,22 +155,26 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Location</p>
-                  <p className="font-medium">Shankarpura, Udupi, Karnataka 574115, India</p>
+                  <p className="font-medium">Church Complex, Shankarpura, Udupi, Karnataka 574115, India</p>
                 </div>
               </div>
             </div>
 
             {/* Map placeholder */}
-            <div className="w-full h-64 bg-card border border-border rounded-sm overflow-hidden">
-              <iframe
-                title="SnapIt Events Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878428698!3d40.74076604379132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cfce5383d5d!2sGoogle!5e0!3m2!1sen!2sus!4v1654563481235!5m2!1sen!2sus"
-                className="w-full h-full border-0 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                allowFullScreen
-              />
-            </div>
+            <p className="text-sm text-muted-foreground mb-3">
+Find SnapIt Events in Udupi, Karnataka. Visit us for professional event production and lighting services.
+</p>
+              <div className="w-full h-64 bg-card border border-border rounded-sm overflow-hidden">
+  <iframe
+    title="SnapIt Events Location"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d970.8497349255742!2d74.768906!3d13.262992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbcb175a0dbe445%3A0xae80cbec9dd888d!2sMAX%20SOUND%20N%20LIGHTS!5e0!3m2!1sen!2sin!4v1772867571278!5m2!1sen!2sin"
+    className="w-full h-full border-0"
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    allowFullScreen
+  ></iframe>
+</div>
+
           </div>
         </div>
       </div>

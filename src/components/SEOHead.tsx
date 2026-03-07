@@ -27,6 +27,7 @@ const SEOHead = ({ title, description, canonical, ogImage, jsonLd }: SEOHeadProp
       <meta property="og:site_name" content="SnapIt Events" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
+      <meta name="twitter:image" content={image} />
       <meta name="twitter:description" content={description} />
       {jsonLd && (
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>

@@ -125,10 +125,13 @@ const LocationPage = () => {
                 <div className="flex items-center gap-3">
                   <MapPin size={18} className="text-primary" />
                   <div>
-                    <p className="font-heading font-semibold group-hover:text-primary transition-colors">
-                      {city.city}
-                    </p>
-                    <p className="text-xs text-muted-foreground">{city.h1}</p>
+                    <p className="font-heading font-semibold">
+  {city.h1}
+</p>
+
+<p className="text-xs text-muted-foreground">
+  {city.city}, {city.state}
+</p>
                   </div>
                 </div>
                 <ArrowRight size={16} className="text-muted-foreground group-hover:text-primary transition-colors" />
